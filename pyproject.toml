@@ -1,0 +1,9 @@
+[project]
+name = "toio-gemini"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "toio-py>=1.1.0",
+]
