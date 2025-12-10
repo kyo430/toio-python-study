@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from toio import *
 
 # --- 設定パラメータ ---
-WAYPOINTS = [(180, 180), (350, 150), (350, 350), (150, 350), (180, 180)]
+WAYPOINTS = [(150, 150), (350, 150), (350, 350), (150, 350), (150, 150)]
 REACH_THRESHOLD = 20 
 # 距離制御用のPIDゲイン
 DIST_KP = 0.8
