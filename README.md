@@ -4,26 +4,26 @@ toioをPythonで操作するための学習用プロジェクトです。`toio-p
 
 ## 機能
 
-- **接続テスト (`connect_test.py`)**
+- **[接続テスト](https://note.com/fp_en_takeshi/n/nd077ec88223d?magazine_key=m3ac3c561928b) (`connect_test.py`)**
   - toioコアキューブのスキャンとBluetooth接続
   - 接続成功時にLEDを赤色に3秒間点灯
 
-- **位置・角度取得 (`1_position.py`)**
+- **[位置・角度取得](https://note.com/fp_en_takeshi/n/n4470b3e34b89?magazine_key=m3ac3c561928b) (`1_position.py`)**
   - プレイマット上のtoioコアキューブの位置(x, y)と角度(angle)をリアルタイムで取得し、コンソールに表示します。
 
-- **P制御による移動 (`2_p_control.py`)**
+- **[P制御による移動](https://note.com/fp_en_takeshi/n/n26f92ca79240?magazine_key=m3ac3c561928b) (`2_p_control.py`)**
   - 指定した目標座標（例：x=200, y=200）に向かって、P制御（比例制御）を用いてtoioコアキューBブを自動で移動させます。
 
-- **PID制御による移動 (`3_pid_control.py`)**
+- **[PID制御による移動](https://note.com/fp_en_takeshi/n/nba386874c280?magazine_key=m3ac3c561928b) (`3_pid_control.py`)**
   - 指定した目標座標に向かって、PID制御を用いてtoioコアキューブを自動で移動させます。P制御よりもスムーズな動作が期待できます。
 
-- **巡回移動 (`4_traveling.py`)**
+- **[巡回移動](https://note.com/fp_en_takeshi/n/n36b95a49bda7?magazine_key=m3ac3c561928b) (`4_traveling.py`)**
   - 指定した複数の目標座標を順番に巡回します。すべての座標を訪れると停止します。
 
-- **障害物回避 (`5_obstacle.py`)**
+- **[障害物回避](https://note.com/fp_en_takeshi/n/nbc239d56fa4e?magazine_key=m3ac3c561928b) (`5_obstacle.py`)**
   - 指定した目標座標に向かう途中に仮想的な障害物を検知すると、それを自動で回避してゴールを目指します。
 
-- **2台同時制御 (`6_double_toio_LED.py`)**
+- **[2台同時制御](https://note.com/fp_en_takeshi/n/n2784c121ce6c?magazine_key=m3ac3c561928b) (`6_double_toio_LED.py`)**
   - 2台のtoioコアキューブに同時に接続し、それぞれを異なる色で光らせながら回転させます。`MultipleToioCoreCubes`クラスの使用例です。
 
 ## 動作環境
