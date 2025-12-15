@@ -23,6 +23,9 @@ toioをPythonで操作するための学習用プロジェクトです。`toio-p
 - **障害物回避 (`5_obstacle.py`)**
   - 指定した目標座標に向かう途中に仮想的な障害物を検知すると、それを自動で回避してゴールを目指します。
 
+- **2台同時制御 (`6_double_toio_LED.py`)**
+  - 2台のtoioコアキューブに同時に接続し、それぞれを異なる色で光らせながら回転させます。`MultipleToioCoreCubes`クラスの使用例です。
+
 ## 動作環境
 
 - Python 3.11 以上
@@ -81,6 +84,13 @@ uv run python 4_traveling.py
 uv run python 5_obstacle.py
 ```
 キューブが障害物を回避しながら目標座標に移動します。
+
+### 2台同時制御
+
+```bash
+uv run python 6_double_toio_LED.py
+```
+2台のキューブがそれぞれ赤と青に光りながら回転します。
 
 ## その他
 
